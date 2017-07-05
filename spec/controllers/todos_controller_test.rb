@@ -1,5 +1,3 @@
-require 'test_helper'
-
 class TodosControllerTest < ActionDispatch::IntegrationTest
   setup do
     @todo = todos(:one)
